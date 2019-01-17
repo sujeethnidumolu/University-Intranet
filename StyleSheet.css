@@ -1,0 +1,39 @@
+body 
+{
+background-color: #808080;
+border-color: black;
+border: dotted;
+background-size: 100%;
+background-image: url('Images/University-Background.jpg');  
+background-repeat: repeat;
+background-position: center;
+}
+
+h1
+{
+font-family: 'Californian FB';    
+font-variant-caps: titling-caps;
+font-weight: bold;
+color: white;
+background-color: black;
+text-align: center;
+}
+
+h2
+{
+font-family: 'Californian FB';    
+font-variant-caps: titling-caps;
+font-weight: bold;
+color: white;
+background-color: darkslategray;
+text-align: center;
+}
+
+p
+{ 
+font-family: 'Sitka Banner';  
+font-weight: bold; 
+color: white;
+font-size: larger;
+text-align: center;
+}

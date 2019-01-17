@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Coursera/Course1.jpg</ImageUrl>
+    <NavigateUrl>https://www.coursera.org</NavigateUrl>
+    <AlternateText>Please visit https://www.coursera.org </AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Coursera/Course2.jpg</ImageUrl>
+    <NavigateUrl>https://www.coursera.org</NavigateUrl>
+    <AlternateText>Please visit https://www.coursera.org </AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Coursera/Course3.png</ImageUrl>
+    <NavigateUrl>https://www.coursera.org</NavigateUrl>
+    <AlternateText>Please visit https://www.coursera.org </AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+</Advertisements>

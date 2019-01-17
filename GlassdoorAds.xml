@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Glassdoor/Job1.jpg</ImageUrl>
+    <NavigateUrl>https://www.glassdoor.com/index.htm</NavigateUrl>
+    <AlternateText>Please visit https://www.glassdoor.com/index.htm </AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Glassdoor/Job2.jpg</ImageUrl>
+    <NavigateUrl>https://www.glassdoor.com/index.htm</NavigateUrl>
+    <AlternateText>Please visit https://www.glassdoor.com/index.htm </AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Glassdoor/Job3.jpg</ImageUrl>
+    <NavigateUrl>https://www.glassdoor.com/index.htm</NavigateUrl>
+    <AlternateText>Please visit https://www.glassdoor.com/index.htm </AlternateText>
+    <Impressions>10</Impressions>
+  </Ad>
+</Advertisements>

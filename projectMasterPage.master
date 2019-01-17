@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="projectMasterPage.master.cs" Inherits="projectMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 119px;
+        }
+        .auto-style2 {
+            height: 36px;
+        }
+        .auto-style4 {
+            width: 100%;
+            height: 340px;
+        }
+        .auto-style6 {
+            width: 1139px;
+        }
+        .auto-style8 {
+            width: 117px;
+        }
+        .auto-style10 {
+            height: 43px;
+        }
+        .auto-style11 {
+            background-color: #FFFFFF;
+        }
+        </style>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div class="auto-style1">
+            <h1>
+                &nbsp;
+                <asp:Image ID="Logo" runat="server" ImageUrl="~/Images/Logo.png" AlternateText="Logo" Height="105px" Width="120px"/>&nbsp;&nbsp; Central&nbsp; Missouri&nbsp; University</h1>
+        </div>
+        <div class="auto-style2">
+            
+   
+            <asp:Menu ID="masterPageMenu" runat="server" BackColor="#FFFBD6" BorderStyle="Outset" DynamicHorizontalOffset="2" Font-Names="Times New Roman" Font-Size="Large" ForeColor="#990000" Orientation="Horizontal" StaticSubMenuIndent="10px" Font-Bold="True" Width="1330px">
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#FFFBD6" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <Items>
+                    <asp:MenuItem Text="Home" NavigateUrl="Login.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Enrollment" NavigateUrl="~/Member/Enrollment.aspx">
+                    <asp:MenuItem Text="Payment" Value="Payment" NavigateUrl="~/Member/Payment.aspx"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Member/Drop.aspx" Text="Drop/Modify Enrollment" Value="Drop/Modify Enrollment"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Our Faculty" Value="Faculty" NavigateUrl="~/Faculty.aspx">
+                    <asp:MenuItem Text="Schedule an appointment" Value="Schedule an appointment" NavigateUrl="~/Member/Appointment.aspx"></asp:MenuItem></asp:MenuItem>
+                    <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="~/AboutUs.aspx"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Admin/Admin.aspx" Text="Admin" Value="Admin"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" Height="20px" Width="100px" />
+                <StaticMenuItemStyle HorizontalPadding="105px" VerticalPadding="5px" />
+                <StaticSelectedStyle BackColor="#FFCC66" />
+            </asp:Menu>
+        </div>
+    
+        <table class="auto-style4">
+            <tr>
+                <td class="auto-style8"><span class="auto-style11">
+                    <br />
+                    Advertisement-</span><br />
+                    <asp:ContentPlaceHolder ID="adsContentPlaceHolder" runat="server">
+                        <asp:AdRotator ID="courseraAdRotator" runat="server" Target ="_blank" AdvertisementFile="~/courseraAds.xml" />
+                    </asp:ContentPlaceHolder>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <span class="auto-style11">
+                    <br />
+                    Advertisement-</span><br />
+                    <asp:AdRotator ID="glassdoorAdRotator" target ="_blank" runat="server" AdvertisementFile="~/GlassdoorAds.xml" />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+                <td class="auto-style6">
+                    <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    
+        <div class="auto-style10">
+            <p>
+                &nbsp;<asp:SiteMapPath ID="universitySiteMapPath" runat="server" BackColor="#FFFFCC" BorderStyle="Ridge" Font-Names="Times New Roman" Font-Size="Large">
+                    <CurrentNodeStyle ForeColor="#333333" />
+                    <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                    <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                    <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                </asp:SiteMapPath>
+            </p>
+        </div>
+    
+    </form>
+</body>
+</html>

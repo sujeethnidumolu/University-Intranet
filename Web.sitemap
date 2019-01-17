@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Login.aspx" title="Home"  description="">
+        <siteMapNode url="~/Member/Enrollment.aspx" title="Enrollment"  description="">        
+        <siteMapNode url="~/Member/Payment.aspx" title="Payment"  description="" />
+        <siteMapNode url="~/Member/Drop.aspx" title="Drop/Modify Enrollment"  description="" />
+    </siteMapNode>
+        <siteMapNode url="~/Faculty.aspx" title="Our Faculty"  description="" />
+        <siteMapNode url="~/Member/Appointment.aspx" title="Schedule an appointment"  description="" />
+        <siteMapNode url="~/Admin/Admin.aspx" title="Admin"  description="" />
+        <siteMapNode url="~/AboutUs.aspx" title="About Us"  description="" />
+    </siteMapNode>
+</siteMap>
